@@ -272,9 +272,9 @@ class DrawImage extends JPanel {
 		thread7.start();
 		thread8.start();
 		
-		while(thread1.isAlive() == true || thread2.isAlive() == true || thread3.isAlive() == true || thread4.isAlive() == true){
+		while(thread1.isAlive() == true || thread2.isAlive() == true || thread3.isAlive() == true || thread4.isAlive() == true || thread5.isAlive() == true || thread6.isAlive() == true || thread7.isAlive() == true || thread8.isAlive() == true){
 			try {
-				Thread.sleep(5);
+				Thread.sleep(10);
 			} catch (InterruptedException e) {
 				// this wont be called as the thread will not be interrupted
 			}
